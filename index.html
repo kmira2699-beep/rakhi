@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Rakhi Card 💖</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="welcome">
+  <h1>💖 Happy Raksha Bandhan 💖</h1>
+  <button onclick="openCard()">Open Your Card 🎁</button>
+</section>
+
+<section class="card" id="card">
+  <h2>For My Dear Bhai/Bahan ❤️</h2>
+
+  <div id="message"></div>
+  <button onclick="nextMessage()">Next Message ➡️</button>
+
+  <!-- ✅ DIRECT ONLINE IMAGES -->
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=400&q=80">
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80">
+    <!-- 👇 aur images add karo -->
+  <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=400&q=80">
+  <img src="https://images.unsplash.com/photo-1503457574462-bd27054394c1?auto=format&fit=crop&w=400&q=80">
+  </div>
+ <div class ="gallery">
+  <img src="image-1.jpg">
+  <img src="images-2.webp">
+  <img src="images-4.jpg">
+  <img src="images-3.jpg">
+
+  </div>
+  </div>
+<video width="800" controls>
+  <source src="istockphoto-2177887687-640_adpp_is.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+  <button onclick="showFinal()">Final Surprise 💌</button>
+</section>
+
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <p>💖 Brother & Sister.❤️ Is the Most Beautiful And Pure Relationship On The Earth ❤️ </p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+<audio id="music" loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+   <!-- 🎵 MUSIC CONTROLS -->
+  <div class="music-controls">
+    <button onclick="toggleMusic()">▶️ / ⏸️ Play-Pause</button>
+    <input type="range" min="0" max="1" step="0.1" onchange="changeVolume(this.value)">
+  </div>
+ 
+<audio id="music" loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
